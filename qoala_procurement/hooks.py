@@ -8,6 +8,15 @@ app_license = "MIT"
 # Includes in <head>
 # ------------------
 
+fixtures = ["Workflow", "Workflow State",
+            {"dt": "Role", "filters": [["Name", "in", [
+                "AVP/VP Finance", "Department Head - 1", "Bu Head", "Department Head", "Procurement"]]]},
+            {"dt": "Custom Field", "filters": [
+                ["module", "=", "Qoala Procurement"]]},
+            {"dt": "Property Setter", "filters": [
+                ["module", "=", "Qoala Procurement"]]},
+            ]
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/qoala_procurement/css/qoala_procurement.css"
 # app_include_js = "/assets/qoala_procurement/js/qoala_procurement.js"
@@ -27,6 +36,10 @@ app_license = "MIT"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
+
+doctype_js = {
+    "Material Request": "qoala_procurement/doctype/material_request/material_request.js"
+}
 # doctype_js = {"doctype" : "public/js/doctype.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
@@ -124,26 +137,24 @@ app_license = "MIT"
 # 	}
 # }
 
+doc_events = {
+    "Material Request": {
+        "validate": "qoala_procurement.qoala_procurement.doctype.material_request.material_request.validate"
+    },
+    "Purchase Order": {
+        "validate": "qoala_procurement.qoala_procurement.doctype.purchase_order.purchase_order.before_submit"
+    },
+}
+
+
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"qoala_procurement.tasks.all"
-# 	],
-# 	"daily": [
-# 		"qoala_procurement.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"qoala_procurement.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"qoala_procurement.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"qoala_procurement.tasks.monthly"
-# 	],
-# }
+scheduler_events = {
+	"hourly": [
+		"qoala_procurement.scheduler_events.update_sla_status"
+	]
+}
 
 # Testing
 # -------

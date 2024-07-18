@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-04 00:52:36.085744",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "configurations_section",
+  "approval_time_limit"
+ ],
+ "fields": [
+  {
+   "fieldname": "configurations_section",
+   "fieldtype": "Section Break",
+   "label": "Configurations"
+  },
+  {
+   "description": "It should be always greater than one hour and multiple of hour",
+   "fieldname": "approval_time_limit",
+   "fieldtype": "Float",
+   "label": "Material Request Approval Time Limit"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-07-09 01:34:18.572310",
+ "modified_by": "Administrator",
+ "module": "Qoala Procurement",
+ "name": "Qoala Procurement Configuration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

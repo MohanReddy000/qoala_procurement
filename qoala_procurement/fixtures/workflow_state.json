@@ -1,0 +1,254 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "question-sign",
+  "modified": "2023-08-16 17:32:16.217440",
+  "name": "Pending",
+  "style": "",
+  "workflow_state_name": "Pending"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "ok-sign",
+  "modified": "2023-10-24 13:45:31.068104",
+  "name": "Approved",
+  "style": "Success",
+  "workflow_state_name": "Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "remove",
+  "modified": "2023-08-16 17:32:16.221467",
+  "name": "Rejected",
+  "style": "Danger",
+  "workflow_state_name": "Rejected"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-10-24 11:41:18.619962",
+  "name": "Draft",
+  "style": "",
+  "workflow_state_name": "Draft"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-10-24 11:41:46.229316",
+  "name": "Verification by Procurement",
+  "style": "",
+  "workflow_state_name": "Verification by Procurement"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-10-24 11:42:13.486929",
+  "name": "Sourcing Process",
+  "style": "",
+  "workflow_state_name": "Sourcing Process"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-10-24 11:42:50.656909",
+  "name": "Approval Process",
+  "style": "",
+  "workflow_state_name": "Approval Process"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-10-24 13:45:46.977390",
+  "name": "PQ/PO Process",
+  "style": "Info",
+  "workflow_state_name": "PQ/PO Process"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-10-24 13:45:10.163589",
+  "name": "Declined",
+  "style": "Danger",
+  "workflow_state_name": "Declined"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-10-24 11:59:19.081654",
+  "name": "Submitted",
+  "style": "",
+  "workflow_state_name": "Submitted"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-05-15 22:44:09.875648",
+  "name": "Verified by Procurement",
+  "style": "Success",
+  "workflow_state_name": "Verified by Procurement"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2023-11-09 14:52:44.695293",
+  "name": "Vendor Confirmed",
+  "style": "Info",
+  "workflow_state_name": "Vendor Confirmed"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-05-15 22:41:46.075248",
+  "name": "Verf Pending by Procurement",
+  "style": "Info",
+  "workflow_state_name": "Verf Pending by Procurement"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-05-28 22:52:00.163208",
+  "name": "Appr Pending by D-Head",
+  "style": "Info",
+  "workflow_state_name": "Appr Pending by D-Head"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-05-15 22:43:04.428514",
+  "name": "Appr Pending by BU-head",
+  "style": "Info",
+  "workflow_state_name": "Appr Pending by BU-head"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-05-15 22:44:49.451666",
+  "name": "Approved by D-head",
+  "style": "Success",
+  "workflow_state_name": "Approved by D-head"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-05-15 22:45:10.117349",
+  "name": "Approved by BU-head",
+  "style": "Success",
+  "workflow_state_name": "Approved by BU-head"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-05-15 22:45:47.106803",
+  "name": "Rejected by Procurement",
+  "style": "Danger",
+  "workflow_state_name": "Rejected by Procurement"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-05-15 22:46:09.898272",
+  "name": "Rejected by D-Head",
+  "style": "Danger",
+  "workflow_state_name": "Rejected by D-Head"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-05-15 22:46:25.623400",
+  "name": "Rejected by BU-Head",
+  "style": "Danger",
+  "workflow_state_name": "Rejected by BU-Head"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-05-25 15:21:30.678735",
+  "name": "Auto Approved",
+  "style": "Success",
+  "workflow_state_name": "Auto Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-06-06 00:19:43.495761",
+  "name": "Appr Pending by D-Head - 1",
+  "style": "Success",
+  "workflow_state_name": "Appr Pending by D-Head - 1"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-06-06 00:02:34.715343",
+  "name": "Approved by D-head - 1",
+  "style": "Success",
+  "workflow_state_name": "Approved by D-head - 1"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-05-28 23:01:20.967850",
+  "name": "Rejected by D-Head - 1",
+  "style": "Warning",
+  "workflow_state_name": "Rejected by D-Head - 1"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-06-05 23:35:06.316328",
+  "name": "Appr Pending by AVP/VP Finance",
+  "style": "Info",
+  "workflow_state_name": "Appr Pending by AVP/VP Finance"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-06-05 23:35:26.914197",
+  "name": "Approved by AVP/VP Finance",
+  "style": "Success",
+  "workflow_state_name": "Approved by AVP/VP Finance"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-06-05 23:35:19.876015",
+  "name": "Rejected by AVP/VP Finance",
+  "style": "Danger",
+  "workflow_state_name": "Rejected by AVP/VP Finance"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-06-06 00:12:59.173164",
+  "name": "Appr Pending By Procurement Manager",
+  "style": "Info",
+  "workflow_state_name": "Appr Pending By Procurement Manager"
+ }
+]
